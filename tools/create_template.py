@@ -37,29 +37,30 @@ def create_template(output_path: str):
     ws = wb.active
     ws.title = "KoEmo"
 
-    headers = ["도메인", "카테고리", "단어군", "정답", "상황"]
+    headers = ["번호", "도메인", "카테고리", "단어군", "정답", "상황"]
     ws.append(headers)
     style_header(ws, 1, len(headers))
 
     examples = [
-        ["감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "얼큰하다",
+        ["(예시)", "감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "얼큰하다",
          "추운 겨울날 순대국밥 국물을 한 숟갈 떠먹으니 속이 확 풀리는 것이 국물이 참 ___."],
-        ["감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "알싸하다",
+        ["(예시)", "감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "알싸하다",
          "초밥 위 와사비를 너무 많이 찍어 먹었더니 코끝이 찡하고 눈물이 핑 돌았다. 와사비가 ___."],
-        ["감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "맵다",
+        ["(예시)", "감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "맵다",
          "라면에 고춧가루를 잔뜩 넣었더니 그냥 ___ 먹기 힘들었다."],
-        ["감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "칼칼하다",
+        ["(예시)", "감각 표현", "미각", "맵다, 얼큰하다, 알싸하다, 칼칼하다", "칼칼하다",
          "김치찌개에 청양고추를 넣었더니 국물 넘길 때 목구멍이 얼얼하게 ___."],
     ]
     for ex in examples:
         ws.append(ex)
         style_example(ws, ws.max_row, len(headers))
 
-    ws.column_dimensions["A"].width = 14
+    ws.column_dimensions["A"].width = 8
     ws.column_dimensions["B"].width = 14
-    ws.column_dimensions["C"].width = 40
-    ws.column_dimensions["D"].width = 16
-    ws.column_dimensions["E"].width = 80
+    ws.column_dimensions["C"].width = 14
+    ws.column_dimensions["D"].width = 40
+    ws.column_dimensions["E"].width = 16
+    ws.column_dimensions["F"].width = 80
 
     wb.save(output_path)
     print(f"템플릿 생성: {output_path}")
