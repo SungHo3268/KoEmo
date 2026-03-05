@@ -2,3 +2,9 @@ __pycache__/
 *.pyc
 .env
 output.jsonl
+
+# API keys
+utils/
+
+# OS
+.DS_Store

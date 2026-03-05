@@ -1,0 +1,1774 @@
+{
+  "model": "o3-mini",
+  "timestamp": "20260305_173040",
+  "metrics": {
+    "overall": {
+      "total": 184,
+      "correct": 132,
+      "accuracy": 0.717391304347826,
+      "no_answer": 0
+    },
+    "by_domain": {
+      "감각 표현": {
+        "total": 72,
+        "correct": 48,
+        "accuracy": 0.6666666666666666
+      },
+      "감상 표현": {
+        "total": 16,
+        "correct": 13,
+        "accuracy": 0.8125
+      },
+      "감정 표현": {
+        "total": 36,
+        "correct": 20,
+        "accuracy": 0.5555555555555556
+      },
+      "상징 표현": {
+        "total": 32,
+        "correct": 28,
+        "accuracy": 0.875
+      },
+      "판단 표현": {
+        "total": 28,
+        "correct": 23,
+        "accuracy": 0.8214285714285714
+      }
+    },
+    "by_category": {
+      "감각 표현 > 미각": {
+        "total": 16,
+        "correct": 9,
+        "accuracy": 0.5625
+      },
+      "감각 표현 > 시각": {
+        "total": 16,
+        "correct": 11,
+        "accuracy": 0.6875
+      },
+      "감각 표현 > 청각": {
+        "total": 12,
+        "correct": 8,
+        "accuracy": 0.6666666666666666
+      },
+      "감각 표현 > 촉각": {
+        "total": 20,
+        "correct": 14,
+        "accuracy": 0.7
+      },
+      "감각 표현 > 후각": {
+        "total": 8,
+        "correct": 6,
+        "accuracy": 0.75
+      },
+      "감상 표현 > 가치 평가": {
+        "total": 8,
+        "correct": 6,
+        "accuracy": 0.75
+      },
+      "감상 표현 > 심미적 평가": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "감정 표현 > 긍정 감정": {
+        "total": 12,
+        "correct": 9,
+        "accuracy": 0.75
+      },
+      "감정 표현 > 복합 감정": {
+        "total": 8,
+        "correct": 5,
+        "accuracy": 0.625
+      },
+      "감정 표현 > 부정 감정": {
+        "total": 16,
+        "correct": 6,
+        "accuracy": 0.375
+      },
+      "상징 표현 > 의성어": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      },
+      "상징 표현 > 의태어": {
+        "total": 24,
+        "correct": 21,
+        "accuracy": 0.875
+      },
+      "판단 표현 > 능력/성품 판단": {
+        "total": 8,
+        "correct": 6,
+        "accuracy": 0.75
+      },
+      "판단 표현 > 사회적 관계": {
+        "total": 12,
+        "correct": 10,
+        "accuracy": 0.8333333333333334
+      },
+      "판단 표현 > 상황 판단": {
+        "total": 8,
+        "correct": 7,
+        "accuracy": 0.875
+      }
+    }
+  },
+  "details": [
+    {
+      "id": "sensory_gustatory_001",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "얼큰하다",
+      "correct_answer": "얼큰하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_002",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "C",
+      "parsed_answer": "달콤하다",
+      "correct_answer": "달짝지근하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_003",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "C",
+      "parsed_answer": "짭짤하다",
+      "correct_answer": "짭조롬하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_004",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "씁쓰름하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_005",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "A",
+      "parsed_answer": "알싸하다",
+      "correct_answer": "알싸하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_006",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "C",
+      "parsed_answer": "짭짤하다",
+      "correct_answer": "간간하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_007",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "얼큰하다",
+      "correct_answer": "칼칼하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_008",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "D",
+      "parsed_answer": "맵다",
+      "correct_answer": "맵다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_009",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "D",
+      "parsed_answer": "달다",
+      "correct_answer": "달다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_010",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "C",
+      "parsed_answer": "달콤하다",
+      "correct_answer": "달콤하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_011",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "달달하다",
+      "correct_answer": "달달하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_012",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "C",
+      "parsed_answer": "짭짤하다",
+      "correct_answer": "짭짤하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_013",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "D",
+      "parsed_answer": "짜다",
+      "correct_answer": "짜다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_014",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "씁쓸하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_gustatory_015",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "쓰다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_gustatory_016",
+      "domain": "감각 표현",
+      "category": "미각",
+      "model_response": "B",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "텁텁하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_visual_001",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "붉다",
+      "correct_answer": "붉다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_002",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "A",
+      "parsed_answer": "눈부시다",
+      "correct_answer": "눈부시다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_003",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "푸르다",
+      "correct_answer": "푸르다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_004",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "널찍하다",
+      "correct_answer": "널찍하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_005",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "찬란하다",
+      "correct_answer": "환하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_visual_006",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "B",
+      "parsed_answer": "검붉다",
+      "correct_answer": "검붉다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_007",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "붉다",
+      "correct_answer": "불그스름하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_visual_008",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "빨갛다",
+      "correct_answer": "빨갛다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_009",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "찬란하다",
+      "correct_answer": "찬란하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_010",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "밝다",
+      "correct_answer": "밝다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_011",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "새파랗다",
+      "correct_answer": "파랗다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_visual_012",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "B",
+      "parsed_answer": "파랗다",
+      "correct_answer": "푸르죽죽하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_visual_013",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "C",
+      "parsed_answer": "새파랗다",
+      "correct_answer": "새파랗다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_014",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "B",
+      "parsed_answer": "크다",
+      "correct_answer": "크다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_015",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "넉넉하다",
+      "correct_answer": "넉넉하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_visual_016",
+      "domain": "감각 표현",
+      "category": "시각",
+      "model_response": "D",
+      "parsed_answer": "넉넉하다",
+      "correct_answer": "여유롭다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_auditory_001",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "C",
+      "parsed_answer": "떠들썩하다",
+      "correct_answer": "왁자하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_auditory_002",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "B",
+      "parsed_answer": "청아하다",
+      "correct_answer": "청아하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_003",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "D",
+      "parsed_answer": "시끄럽다",
+      "correct_answer": "시끄럽다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_004",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "B",
+      "parsed_answer": "요란하다",
+      "correct_answer": "요란하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_005",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "D",
+      "parsed_answer": "시끄럽다",
+      "correct_answer": "시끄럽다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_006",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "C",
+      "parsed_answer": "떠들썩하다",
+      "correct_answer": "떠들썩하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_007",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "D",
+      "parsed_answer": "맑다",
+      "correct_answer": "맑다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_008",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "D",
+      "parsed_answer": "맑다",
+      "correct_answer": "낭랑하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_auditory_009",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "B",
+      "parsed_answer": "청아하다",
+      "correct_answer": "쨍하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_auditory_010",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "B",
+      "parsed_answer": "요란하다",
+      "correct_answer": "요란하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_auditory_011",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "C",
+      "parsed_answer": "떠들썩하다",
+      "correct_answer": "소란하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_auditory_012",
+      "domain": "감각 표현",
+      "category": "청각",
+      "model_response": "C",
+      "parsed_answer": "떠들썩하다",
+      "correct_answer": "떠들썩하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_001",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "뜨끈하다",
+      "correct_answer": "따뜻하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_002",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "포근하다",
+      "correct_answer": "포근하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_003",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "A",
+      "parsed_answer": "탄탄하다",
+      "correct_answer": "탄탄하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_004",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "매끄럽다",
+      "correct_answer": "매끄럽다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_005",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "뜨끈하다",
+      "correct_answer": "뜨끈하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_006",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "말랑하다",
+      "correct_answer": "폭신하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_007",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "미지근하다",
+      "correct_answer": "미지근하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_008",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "뜨겁다",
+      "correct_answer": "뜨겁다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_009",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "포근하다",
+      "correct_answer": "푸근하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_010",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "푹신하다",
+      "correct_answer": "푹신하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_011",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "푹신하다",
+      "correct_answer": "폭신하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_012",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "단단하다",
+      "correct_answer": "단단하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_013",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "딱딱하다",
+      "correct_answer": "딱딱하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_014",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "질기다",
+      "correct_answer": "질기다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_015",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "평평하다",
+      "correct_answer": "평평하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_016",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "매끄럽다",
+      "correct_answer": "판판하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_017",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "평평하다",
+      "correct_answer": "고르다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_tactile_018",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "C",
+      "parsed_answer": "말랑하다",
+      "correct_answer": "말랑하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_019",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "B",
+      "parsed_answer": "푹신하다",
+      "correct_answer": "푹신하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_tactile_020",
+      "domain": "감각 표현",
+      "category": "촉각",
+      "model_response": "D",
+      "parsed_answer": "포근하다",
+      "correct_answer": "포근하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_001",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "A",
+      "parsed_answer": "구수하다",
+      "correct_answer": "구수하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_002",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "C",
+      "parsed_answer": "퀴퀴하다",
+      "correct_answer": "퀴퀴하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_003",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "C",
+      "parsed_answer": "그윽하다",
+      "correct_answer": "그윽하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_004",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "D",
+      "parsed_answer": "향긋하다",
+      "correct_answer": "향긋하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_005",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "B",
+      "parsed_answer": "고소하다",
+      "correct_answer": "고소하다",
+      "is_correct": true
+    },
+    {
+      "id": "sensory_olfactory_006",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "C",
+      "parsed_answer": "퀴퀴하다",
+      "correct_answer": "역하다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_olfactory_007",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "B",
+      "parsed_answer": "비릿하다",
+      "correct_answer": "비리다",
+      "is_correct": false
+    },
+    {
+      "id": "sensory_olfactory_008",
+      "domain": "감각 표현",
+      "category": "후각",
+      "model_response": "B",
+      "parsed_answer": "비릿하다",
+      "correct_answer": "비릿하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_001",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "C",
+      "parsed_answer": "뿌듯하다",
+      "correct_answer": "흐뭇하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_positive_002",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "B",
+      "parsed_answer": "뭉클하다",
+      "correct_answer": "찡하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_positive_003",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "C",
+      "parsed_answer": "뿌듯하다",
+      "correct_answer": "뿌듯하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_004",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "C",
+      "parsed_answer": "벅차다",
+      "correct_answer": "벅차다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_005",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "C",
+      "parsed_answer": "여유롭다",
+      "correct_answer": "여유롭다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_006",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "D",
+      "parsed_answer": "기쁘다",
+      "correct_answer": "기쁘다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_007",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "B",
+      "parsed_answer": "반갑다",
+      "correct_answer": "반갑다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_008",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "D",
+      "parsed_answer": "감동적이다",
+      "correct_answer": "감동적이다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_009",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "B",
+      "parsed_answer": "뭉클하다",
+      "correct_answer": "뭉클하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_010",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "D",
+      "parsed_answer": "편하다",
+      "correct_answer": "편하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_positive_011",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "C",
+      "parsed_answer": "여유롭다",
+      "correct_answer": "느긋하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_positive_012",
+      "domain": "감정 표현",
+      "category": "긍정 감정",
+      "model_response": "A",
+      "parsed_answer": "한가하다",
+      "correct_answer": "한가하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_complex_001",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "B",
+      "parsed_answer": "아련하다",
+      "correct_answer": "아련하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_complex_002",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "D",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "착잡하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_complex_003",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "A",
+      "parsed_answer": "허탈하다",
+      "correct_answer": "허무하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_complex_004",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "C",
+      "parsed_answer": "서운하다",
+      "correct_answer": "서운하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_complex_005",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "A",
+      "parsed_answer": "아쉽다",
+      "correct_answer": "아쉽다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_complex_006",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "D",
+      "parsed_answer": "그립다",
+      "correct_answer": "그립다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_complex_007",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "D",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "허탈하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_complex_008",
+      "domain": "감정 표현",
+      "category": "복합 감정",
+      "model_response": "D",
+      "parsed_answer": "씁쓸하다",
+      "correct_answer": "씁쓸하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_001",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "쓸쓸하다",
+      "correct_answer": "쓸쓸하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_002",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "A",
+      "parsed_answer": "억울하다",
+      "correct_answer": "억울하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_003",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "A",
+      "parsed_answer": "초조하다",
+      "correct_answer": "조마조마하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_004",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "애처롭다",
+      "correct_answer": "애처롭다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_005",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "쓸쓸하다",
+      "correct_answer": "처량하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_006",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "쓸쓸하다",
+      "correct_answer": "서글프다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_007",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "쓸쓸하다",
+      "correct_answer": "슬프다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_008",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "분하다",
+      "correct_answer": "화나다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_009",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "B",
+      "parsed_answer": "짜증나다",
+      "correct_answer": "짜증나다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_010",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "A",
+      "parsed_answer": "억울하다",
+      "correct_answer": "분하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_011",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "A",
+      "parsed_answer": "초조하다",
+      "correct_answer": "초조하다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_012",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "B",
+      "parsed_answer": "조마조마하다",
+      "correct_answer": "불안하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_013",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "걱정되다",
+      "correct_answer": "걱정되다",
+      "is_correct": true
+    },
+    {
+      "id": "emotional_negative_014",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "애처롭다",
+      "correct_answer": "처량하다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_015",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "애처롭다",
+      "correct_answer": "서글프다",
+      "is_correct": false
+    },
+    {
+      "id": "emotional_negative_016",
+      "domain": "감정 표현",
+      "category": "부정 감정",
+      "model_response": "C",
+      "parsed_answer": "애처롭다",
+      "correct_answer": "슬프다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_ability_001",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "C",
+      "parsed_answer": "눈치빠르다",
+      "correct_answer": "눈치빠르다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_002",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "C",
+      "parsed_answer": "부지런하다",
+      "correct_answer": "부지런하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_003",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "A",
+      "parsed_answer": "약삭빠르다",
+      "correct_answer": "약삭빠르다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_004",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "D",
+      "parsed_answer": "똑똑하다",
+      "correct_answer": "똑똑하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_005",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "C",
+      "parsed_answer": "눈치빠르다",
+      "correct_answer": "영리하다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_ability_006",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "D",
+      "parsed_answer": "성실하다",
+      "correct_answer": "성실하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_007",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "B",
+      "parsed_answer": "꾸준하다",
+      "correct_answer": "꾸준하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_ability_008",
+      "domain": "판단 표현",
+      "category": "능력/성품 판단",
+      "model_response": "C",
+      "parsed_answer": "부지런하다",
+      "correct_answer": "근면하다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_social_001",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "C",
+      "parsed_answer": "살갑다",
+      "correct_answer": "살갑다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_002",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "A",
+      "parsed_answer": "깍듯하다",
+      "correct_answer": "깍듯하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_003",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "B",
+      "parsed_answer": "챙기다",
+      "correct_answer": "챙기다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_004",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "C",
+      "parsed_answer": "정중하다",
+      "correct_answer": "정중하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_005",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "D",
+      "parsed_answer": "친하다",
+      "correct_answer": "친하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_006",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "A",
+      "parsed_answer": "다정하다",
+      "correct_answer": "다정하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_007",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "D",
+      "parsed_answer": "친하다",
+      "correct_answer": "가깝다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_social_008",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "B",
+      "parsed_answer": "공손하다",
+      "correct_answer": "공손하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_009",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "B",
+      "parsed_answer": "공손하다",
+      "correct_answer": "예의바르다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_social_010",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "A",
+      "parsed_answer": "살피다",
+      "correct_answer": "살피다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_011",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "C",
+      "parsed_answer": "보살피다",
+      "correct_answer": "보살피다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_social_012",
+      "domain": "판단 표현",
+      "category": "사회적 관계",
+      "model_response": "D",
+      "parsed_answer": "배려하다",
+      "correct_answer": "배려하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_001",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "C",
+      "parsed_answer": "곤란하다",
+      "correct_answer": "난감하다",
+      "is_correct": false
+    },
+    {
+      "id": "judgement_situation_002",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "C",
+      "parsed_answer": "무난하다",
+      "correct_answer": "무난하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_003",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "C",
+      "parsed_answer": "곤란하다",
+      "correct_answer": "곤란하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_004",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "D",
+      "parsed_answer": "어렵다",
+      "correct_answer": "어렵다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_005",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "B",
+      "parsed_answer": "까다롭다",
+      "correct_answer": "까다롭다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_006",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "D",
+      "parsed_answer": "괜찮다",
+      "correct_answer": "괜찮다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_007",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "B",
+      "parsed_answer": "무방하다",
+      "correct_answer": "무방하다",
+      "is_correct": true
+    },
+    {
+      "id": "judgement_situation_008",
+      "domain": "판단 표현",
+      "category": "상황 판단",
+      "model_response": "A",
+      "parsed_answer": "적절하다",
+      "correct_answer": "적절하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_001",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "B",
+      "parsed_answer": "깔끔하다",
+      "correct_answer": "말끔하다",
+      "is_correct": false
+    },
+    {
+      "id": "appreciation_value_002",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "A",
+      "parsed_answer": "산뜻하다",
+      "correct_answer": "산뜻하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_003",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "B",
+      "parsed_answer": "훌륭하다",
+      "correct_answer": "훌륭하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_004",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "D",
+      "parsed_answer": "깨끗하다",
+      "correct_answer": "깨끗하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_005",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "B",
+      "parsed_answer": "깔끔하다",
+      "correct_answer": "깔끔하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_006",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "D",
+      "parsed_answer": "좋다",
+      "correct_answer": "좋다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_value_007",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "C",
+      "parsed_answer": "무난하다",
+      "correct_answer": "괜찮다",
+      "is_correct": false
+    },
+    {
+      "id": "appreciation_value_008",
+      "domain": "감상 표현",
+      "category": "가치 평가",
+      "model_response": "C",
+      "parsed_answer": "무난하다",
+      "correct_answer": "무난하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_001",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "B",
+      "parsed_answer": "고즈넉하다",
+      "correct_answer": "고즈넉하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_002",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "A",
+      "parsed_answer": "곱다",
+      "correct_answer": "곱다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_003",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "D",
+      "parsed_answer": "아늑하다",
+      "correct_answer": "아늑하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_004",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "C",
+      "parsed_answer": "화사하다",
+      "correct_answer": "화사하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_005",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "B",
+      "parsed_answer": "고즈넉하다",
+      "correct_answer": "한적하다",
+      "is_correct": false
+    },
+    {
+      "id": "appreciation_aesthetic_006",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "C",
+      "parsed_answer": "적막하다",
+      "correct_answer": "적막하다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_007",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "B",
+      "parsed_answer": "예쁘다",
+      "correct_answer": "예쁘다",
+      "is_correct": true
+    },
+    {
+      "id": "appreciation_aesthetic_008",
+      "domain": "감상 표현",
+      "category": "심미적 평가",
+      "model_response": "D",
+      "parsed_answer": "아름답다",
+      "correct_answer": "아름답다",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_001",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "C",
+      "parsed_answer": "호호",
+      "correct_answer": "호호",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_002",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "D",
+      "parsed_answer": "깔깔",
+      "correct_answer": "깔깔",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_003",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "B",
+      "parsed_answer": "훌쩍훌쩍",
+      "correct_answer": "훌쩍훌쩍",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_004",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "A",
+      "parsed_answer": "히히",
+      "correct_answer": "히히",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_005",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "B",
+      "parsed_answer": "킥킥",
+      "correct_answer": "킥킥",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_006",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "D",
+      "parsed_answer": "엉엉",
+      "correct_answer": "엉엉",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_007",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "C",
+      "parsed_answer": "울먹울먹",
+      "correct_answer": "울먹울먹",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_onomatopoeia_008",
+      "domain": "상징 표현",
+      "category": "의성어",
+      "model_response": "C",
+      "parsed_answer": "울먹울먹",
+      "correct_answer": "흑흑",
+      "is_correct": false
+    },
+    {
+      "id": "symbolic_mimetic_001",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "살금살금",
+      "correct_answer": "살금살금",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_002",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "촉촉하다",
+      "correct_answer": "촉촉하다",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_003",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "B",
+      "parsed_answer": "사뿐사뿐",
+      "correct_answer": "사뿐사뿐",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_004",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "반짝반짝",
+      "correct_answer": "반짝반짝",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_005",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "A",
+      "parsed_answer": "터벅터벅",
+      "correct_answer": "터벅터벅",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_006",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "보슬보슬",
+      "correct_answer": "보슬보슬",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_007",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "살랑살랑",
+      "correct_answer": "살랑살랑",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_008",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "B",
+      "parsed_answer": "사뿐사뿐",
+      "correct_answer": "사뿐사뿐",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_009",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "A",
+      "parsed_answer": "어슬렁어슬렁",
+      "correct_answer": "어슬렁어슬렁",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_010",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "질퍽하다",
+      "correct_answer": "축축하다",
+      "is_correct": false
+    },
+    {
+      "id": "symbolic_mimetic_011",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "질퍽하다",
+      "correct_answer": "질퍽하다",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_012",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "A",
+      "parsed_answer": "눅눅하다",
+      "correct_answer": "눅눅하다",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_013",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "성큼성큼",
+      "correct_answer": "성큼성큼",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_014",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "살금살금",
+      "correct_answer": "살금살금",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_015",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "A",
+      "parsed_answer": "어슬렁어슬렁",
+      "correct_answer": "어슬렁어슬렁",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_016",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "B",
+      "parsed_answer": "번쩍번쩍",
+      "correct_answer": "번쩍번쩍",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_017",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "번들번들",
+      "correct_answer": "번들번들",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_018",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "반짝반짝",
+      "correct_answer": "빤짝빤짝",
+      "is_correct": false
+    },
+    {
+      "id": "symbolic_mimetic_019",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "하염없이",
+      "correct_answer": "하염없이",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_020",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "비틀비틀",
+      "correct_answer": "비틀비틀",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_021",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "B",
+      "parsed_answer": "어슬렁어슬렁",
+      "correct_answer": "어슬렁어슬렁",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_022",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "A",
+      "parsed_answer": "쏟아지다",
+      "correct_answer": "쏟아지다",
+      "is_correct": true
+    },
+    {
+      "id": "symbolic_mimetic_023",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "D",
+      "parsed_answer": "보슬보슬",
+      "correct_answer": "추적추적",
+      "is_correct": false
+    },
+    {
+      "id": "symbolic_mimetic_024",
+      "domain": "상징 표현",
+      "category": "의태어",
+      "model_response": "C",
+      "parsed_answer": "후두둑",
+      "correct_answer": "후두둑",
+      "is_correct": true
+    }
+  ]
+}

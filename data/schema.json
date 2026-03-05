@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KoEmo Benchmark Item",
+  "description": "한국어 맥락 의존적 어휘 선택 벤치마크 문항 스키마",
+  "type": "object",
+  "required": ["id", "domain", "category", "subcategory", "word_group", "scenario", "choices", "answer", "explanation"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "고유 식별자 (형식: {domain_code}_{category_code}_{번호})",
+      "pattern": "^[a-z]+_[a-z]+_[0-9]{3}$"
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["감각 표현", "감정 표현", "판단 표현", "감상 표현", "상징 표현"]
+    },
+    "category": {
+      "type": "string",
+      "description": "중분류 카테고리"
+    },
+    "subcategory": {
+      "type": "string",
+      "description": "소분류 카테고리"
+    },
+    "word_group": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "description": "해당 문항이 속한 유의어군 전체"
+    },
+    "scenario": {
+      "type": "string",
+      "description": "맥락/상황 설명. 빈칸은 ___로 표시"
+    },
+    "choices": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 4,
+      "maxItems": 4,
+      "description": "4개의 선택지"
+    },
+    "answer": {
+      "type": "string",
+      "description": "최적 정답 (choices 중 하나)"
+    },
+    "explanation": {
+      "type": "string",
+      "description": "정답 근거 및 각 선택지에 대한 설명"
+    }
+  }
+}

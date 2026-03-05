@@ -2,7 +2,7 @@
 
 한국어의 맥락 의존적 어휘 선택 능력을 평가하는 LLM 벤치마크
 
-**데이터 제작 가이드라인**: [https://sungho3268.github.io/KoEmo/](https://sungho3268.github.io/KoEmo/)
+**데이터 제작 가이드라인**: [https://ko-bench.github.io/KoEmo/](https://ko-bench.github.io/KoEmo/)
 
 ## 연구 목적
 
