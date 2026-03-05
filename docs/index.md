@@ -21,7 +21,7 @@ title: KoEmo 데이터 제작 가이드라인
 
 ## 작업 방법
 
-배포된 **[KoEmo_template.xlsx]({{ site.baseurl }}/KoEmo_template.xlsx)** 파일을 다운받아 직접 작성합니다.
+배포된 **<a href="{{ site.baseurl }}/KoEmo_template.xlsx" download>KoEmo_template.xlsx</a>** 파일을 다운받아 직접 작성합니다.
 
 ### Step 1. 유의어군 정하기
 
