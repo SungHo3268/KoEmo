@@ -1,14 +1,14 @@
-# KoEmo: Korean Emotional & Contextual Nuance Benchmark
+# KoNuance: Korean Emotional & Contextual Nuance Benchmark
 
 한국어의 맥락 의존적 어휘 선택 능력을 평가하는 LLM 벤치마크
 
-**데이터 제작 가이드라인**: [https://ko-bench.github.io/KoEmo/](https://ko-bench.github.io/KoEmo/)
+**데이터 제작 가이드라인**: [https://ko-bench.github.io/KoNuance/](https://ko-bench.github.io/KoNuance/)
 
 ## 연구 목적
 
 한국어는 동일한 의미 범주 내에서도 맥락, 감정, 감각적 강도에 따라 상이한 단어를 선택해야 하는 풍부한 어휘 체계를 갖고 있다. 예를 들어 "뜨거운 국물"을 표현할 때, 단순한 온도 서술은 "뜨겁다", 추위 속에서의 긍정적 수용은 "뜨끈하다", 먹고 난 후의 개운함은 "시원하다"로 표현된다.
 
-KoEmo는 이러한 **미묘한 어휘 선택의 차이를 LLM이 제대로 이해하고 있는지** 평가하는 벤치마크이다.
+KoNuance는 이러한 **미묘한 어휘 선택의 차이를 LLM이 제대로 이해하고 있는지** 평가하는 벤치마크이다.
 
 ## 이론적 배경
 
@@ -24,7 +24,7 @@ KoEmo는 이러한 **미묘한 어휘 선택의 차이를 LLM이 제대로 이�
 ## 도메인 분류 체계
 
 ```
-KoEmo
+KoNuance
 ├── 1. 감각 표현 (Sensory)           ← 어휘장 이론 + 감각어 분류
 │   ├── 1.1 시각 (Visual): 색상, 밝기, 크기/형태
 │   ├── 1.2 미각 (Gustatory): 매운맛, 단맛, 짠맛, 쓴맛
@@ -92,7 +92,7 @@ JSON Lines (.jsonl) 포맷. 각 문항의 스키마:
 ## 디렉토리 구조
 
 ```
-KoEmo/
+KoNuance/
 ├── README.md
 ├── data/
 │   ├── samples.jsonl          # 샘플 데이터

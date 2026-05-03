@@ -1,5 +1,5 @@
 """
-KoEmo 크라우드소싱 템플릿 XLSX 생성
+KoNuance 크라우드소싱 템플릿 XLSX 생성
 """
 
 from openpyxl import Workbook
@@ -35,7 +35,7 @@ def style_example(ws, row, col_count):
 def create_template(output_path: str):
     wb = Workbook()
     ws = wb.active
-    ws.title = "KoEmo"
+    ws.title = "KoNuance"
 
     headers = ["번호", "도메인", "카테고리", "단어군", "정답", "상황"]
     ws.append(headers)
@@ -67,4 +67,4 @@ def create_template(output_path: str):
 
 
 if __name__ == "__main__":
-    create_template("docs/KoEmo_template.xlsx")
+    create_template("docs/KoNuance_template.xlsx")

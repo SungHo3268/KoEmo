@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "KoEmo Benchmark Item",
+  "title": "KoNuance Benchmark Item",
   "description": "한국어 맥락 의존적 어휘 선택 벤치마크 문항 스키마",
   "type": "object",
   "required": ["id", "domain", "category", "subcategory", "word_group", "scenario", "choices", "answer", "explanation"],
